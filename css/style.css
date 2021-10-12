@@ -263,3 +263,44 @@ font-size: 24px;
 .slick-prev{
     right: 60px;
 }
+.tour{
+    padding: 100px 0;
+}
+.tour__title{
+    margin-bottom: 75px;
+}
+.tour__box{
+    column-count: 2;
+    column-gap: 50px;
+    border-bottom: 1px solid #d9d9de;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    
+}
+.tour__text{
+margin-bottom: 15px;
+}
+.tour__text span{
+   font-weight: 700; 
+}
+.tour__info{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 70px;
+}
+.tour__info-item{
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+color: #886239;
+font-family: 'PT Serif', serif;
+text-align: center;
+}
+.tour__info-text{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 20px;
+    font-weight: 500;
+    color: #1f1e1e;
+    line-height: 25px;
+    
+}
