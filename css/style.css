@@ -385,3 +385,51 @@ margin-bottom: 20px;
    left: 50%;
    transform: translate(-55%,-60%) rotate(-50deg);
 }
+.footer{
+    background: #1f1e1e;
+    padding: 80px 0;
+}
+.footer__logo{
+   text-align: center; 
+   margin-bottom: 70px;
+}
+.footer__box{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 14px;
+    line-height: 130%;
+    max-width: 830px;
+    margin: 0 auto;
+}
+.footer__info{
+    width: 225px;
+}
+.footer__box-title{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.footer__copy{
+    margin-bottom: 5px;
+    opacity: 0.8;
+}
+.footer__link{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.footer__adress{
+    width: 165px;
+}
+.footer__addess-text{
+    opacity: 0.8;
+}
+.footer__contacts{
+    width: 210px;
+}
+.footer__phone{
+opacity: 0.8;
+}
+.footer__mail{
+   opacity: 0.8; 
+   display: block;
+}
